@@ -3,8 +3,8 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  animation: App-logo-spin infinite 2s linear;
+  height: 120px;
 }
 
 .App-header {
@@ -15,7 +15,8 @@
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 1.3em;
+  color: yellow;
 }
 
 .App-intro {
@@ -23,6 +24,6 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
+  from { transform: scale(0deg); }
   to { transform: rotate(360deg); }
 }

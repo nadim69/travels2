@@ -3,15 +3,30 @@ import logo from './logo.svg';
 import './App.css';
 
 import Quote from "./Quote";
+import Lamp from "./lamp";
 
 class App extends Component {
+    constructor(){
+      super();
+      this.state ={
+        working : true
+      }
+    };
+ AtomeReverse = () => {
+    this.setState = { workig: !this.state.true}};
+
   render() {
+
     return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">MyTravels</h1>
+          <h1 className="App-title">My Travel</h1>
         </header>
+          <button onClick={this.AtomeReverse}
+          />
+          <Lamp on />
+          <Lamp />
          <Quote
           quote="I believe the children are the future... Unless we stop them now!"
           character="Homer Simpson"
